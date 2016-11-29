@@ -1,0 +1,42 @@
+*{
+	font-family:'calibri',sans-serif;		
+}
+.thead{
+	font-weight:bold;	
+}
+.oBox{
+	margin:0px auto;
+	margin-bottom:20px;	
+}
+.oBox div{
+	margin:1px;	
+	display:inline-block;	
+	text-align:left;
+	font-size:15px;
+}
+.oBox,
+.oBox div
+{
+	border:1px solid #999999;	
+}
+#third > .tbody > div:nth-child(odd){
+	min-width:197px;
+}
+#first{
+	width:460px;
+}
+#first > .tbody div{
+	min-width:149px;
+}
+#second{
+	width:300px;
+}
+#second > .tbody div{
+	min-width:146px;
+}
+#third{
+	width:350px;
+}
+#third > .tbody div{
+	min-width:145px;
+}
